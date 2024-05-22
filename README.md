@@ -17,10 +17,20 @@ Este proyecto es una aplicación de ejemplo para aprender los conceptos básicos
 - **Maven**: Herramienta de gestión de dependencias. [Instalar Maven](https://maven.apache.org/install.html)
 - **MySQL**: Base de datos relacional. [Descargar MySQL](https://dev.mysql.com/downloads/installer/)
 
+## Base de datos
+
+- Nombre de la tabla: Persona
+- Campos:
+    - id: Clave primaria autoincremental
+    - nombre: Tipo VARCHAR
+    - apellidos: Tipo VARCHAR
+    - sexo: Tipo VARCHAR
+    - correo: Tipo VARCHAR
+
 ## Configuración del Proyecto
 
 ### 1. Clonar el Repositorio
 
 ```sh
-git clone https://github.com/tu_usuario/tu_repositorio.git
-cd tu_repositorio
+git clone https://github.com/tu_usuario/java-spring-boot-crud.git
+cd java-spring-boot-crud
